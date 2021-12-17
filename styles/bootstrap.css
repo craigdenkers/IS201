@@ -1,0 +1,45 @@
+p {
+    font-weight: normal
+}
+.common {
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100;
+    z-index: 2;
+
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+}
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+}
+.rightmenu {
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+}
+.footer {
+    bottom: 5px;
+    height: 35px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+}
+.justify {
+    font-display: justify;
+}

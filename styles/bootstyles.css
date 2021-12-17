@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.common {
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 370px;
+    background-image: url("../assets/images/snowaerial.JPG");
+    background-size: cover;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: 5px;
+}
+.mainbody {
+    top: 385px;
+    bottom: 74px;
+    left: 50px;
+    right: 50px;
+}
+.footer {
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pagelinks {
+    list-style:none;
+    display:inline-block;
+    margin-right:10px;
+}
+.homebutton {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: black;
+    border-radius:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.aboutmebutton {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    width: 200px;
+    height: 100px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: black;
+    border-radius:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tableaubutton {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 100px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: black;
+    border-radius:25px;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+.questions {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    display: inline-block;
+}
